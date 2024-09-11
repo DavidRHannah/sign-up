@@ -200,6 +200,14 @@ input:focus {
     box-shadow: 0 0 5px rgba(0, 86, 179, 0.3);
 }
 
+input:invalid {
+    border-color: rgb(231, 99, 99);
+} 
+  
+input:valid {
+border-color: green;
+}
+
 button {
     background-color: var(--button-background);
     color: #fff;
