@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="master-container">
+        <div id="side-bar-container">
+            <div id="top-container">
+                <div id="banner-text">
+                    Sign up
+                </div>
+            </div>
+            <div id="bottom-container">
+                <div id="image-cred">
+                    Photo by <a href="https://unsplash.com/photos/brown-wooden-pathway-surrounded-by-fan-palm-lfm4j1a-ev0"> Ryan Kosmides</a> on Unsplash
+                </div>
+            </div>
+        </div>
+        <div id="form-container">
+            <div class="form-item">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+            </div>
+            <div class="form-item">
+                <p>You <i>know</i> you want to!</p>
+            </div>
+            <div class="form-item form-question-container">
+                <form action="https://httpbin.org/post" method="post">
+                    <h3>Let's do this!</h3>
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="first_name" class="form-label">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name" placeholder="Fabricio" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="last_name" class="form-label">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name" placeholder="Martinez" required>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="email" class="form-label">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone_number" class="form-label">PHONE NUMBER</label>
+                            <input type="tel" name="phone_number" id="phone_number" placeholder="(333)-333-3333" required>
+                        </div>
+                    </div>
+                  
+                    <div class="row">
+                        <div class="input-group">
+                            <label for="password" class="form-label">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="confirm_password" class="form-label">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm_password" id="confirm_password" required>
+                        </div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
