@@ -1,10 +1,13 @@
 # Sign up!
-
 ## Versions
-### Lightmode and Darkmode
+### Lightmode
 <div align="center">
-  <img src="./res/demo-lightmode.png" width="500" height="auto" title="hover text">
-  <img src="./res/demo-darkmode.png" width="500" height="auto" title="hover text">
+  <img src="./res/demos/updated-demo-lightmode.png" width="500" height="auto" title="hover text">
+</div>
+
+### Darkmode
+<div align="center">  
+  <img src="./res/demos/updated-demo-darkmode.png" width="500" height="auto" title="hover text">
 </div>
 
 ### First Draft
